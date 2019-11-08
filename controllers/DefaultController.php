@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\schedule\controllers;
+namespace shahimian\schedule\controllers;
 
 use yii\web\Controller;
 

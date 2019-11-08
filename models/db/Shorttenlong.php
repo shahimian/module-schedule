@@ -6,7 +6,7 @@
  * Time: 12:49:15
  */
 
-namespace app\modules\schedule\models\db;
+namespace shahimian\schedule\models\db;
 
 
 use yii\db\Migration;

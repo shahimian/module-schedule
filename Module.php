@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\schedule;
+namespace shahimian\schedule;
 
 /**
  * schedule module definition class
@@ -10,7 +10,7 @@ class Module extends \yii\base\Module
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'app\modules\schedule\controllers';
+    public $controllerNamespace = 'shahimian\schedule\controllers';
 
     /**
      * @inheritdoc
