@@ -11,18 +11,17 @@ namespace shahimian\schedule\models\db;
 
 use yii\db\Migration;
 
-class Shortterm extends Migration
+class Schedules extends Migration
 {
 
     function up()
     {
-        if($this->getDb()->schema->getTableSchema('shortterm') == false){
-            $this->createTable('shortterm', [
-                'shortterm_id' => $this->bigPrimaryKey(),
-                'longterm_id' => $this->bigInteger(),
+        if($this->getDb()->schema->getTableSchema('schedules') == false){
+            $this->createTable('schedules', [
+                'schedule_id' => $this->bigPrimaryKey(),
                 'user_id' => $this->bigInteger(),
                 'title' => $this->string(),
-                'goal' => $this->string(),
+                'description' => $this->string(),
                 'start' => $this->datetime(),
                 'finish' => $this->datetime(),
                 'created_at' => $this->integer(),

@@ -2,6 +2,7 @@
     "name": "shahimian/yii2-schedule",
     "description": "This app allows to follow your work and saving your time",
     "type": "yii2-extension",
+    "minimum-stability": "dev",
     "keywords": ["yii2","extension","schedule","time","follow"],
     "license": "MIT",
     "authors": [
@@ -11,7 +12,10 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0"
+        "yiisoft/yii2": "~2.0.0",
+        "shahimian/yii2-dategj": "^1.0.0",
+        "shahimian/yii2-assets-table": "0.0.1",
+        "shahimian/yii2-persian-fonts": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
